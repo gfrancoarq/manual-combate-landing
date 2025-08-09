@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual de Combate para un Corazón Roto - Franco Sin Miedos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;700&family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos personalizados para una apariencia de élite */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0A0A0A; /* Negro puro para máximo contraste */
+            color: #E5E7EB; 
+        }
+        h1, h2, h3, .montserrat-font {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+        }
+        .anton-font {
+             font-family: 'Anton', sans-serif;
+        }
+        .cta-button {
+            background: linear-gradient(90deg, #F97316 0%, #EA580C 100%); /* Gradiente naranja */
+            color: #FFFFFF;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            box-shadow: 0 4px 15px rgba(249, 115, 22, 0.2);
+        }
+        .cta-button:hover {
+            transform: translateY(-5px) scale(1.03);
+            box-shadow: 0 10px 25px rgba(249, 115, 22, 0.4);
+        }
+        .secondary-cta {
+            background: transparent;
+            border: 2px solid #F97316;
+            color: #F97316;
+            box-shadow: none;
+        }
+        .secondary-cta:hover {
+            background-color: #F97316;
+            color: #FFFFFF;
+            box-shadow: 0 10px 25px rgba(249, 115, 22, 0.4);
+        }
+        .card {
+            background-color: #111111;
+            border: 1px solid #222222;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+        }
+        .hero-gradient {
+            background: #0A0A0A;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero-gradient::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(249, 115, 22, 0.1) 0%, rgba(10, 10, 10, 0) 60%);
+            animation: rotate 20s linear infinite;
+        }
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        .icon-check {
+            color: #F97316;
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- SECCIÓN HERO -->
+    <header class="text-center py-16 md:py-24 px-4 hero-gradient">
+        <div class="max-w-4xl mx-auto relative z-10">
+            <h1 class="text-5xl md:text-7xl lg:text-8xl anton-font uppercase tracking-wider text-white">
+                ¿TU RUPTURA TE DEJÓ K.O.?
+            </h1>
+            <h2 class="mt-4 text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto">
+                Deja de analizar su "visto" en WhatsApp. Es hora de empezar tu propia reconquista.
+            </h2>
+             <a href="#comprar" class="cta-button inline-block mt-10 px-12 py-4 rounded-lg text-xl uppercase tracking-wider">
+                INICIAR MI ENTRENAMIENTO
+            </a>
+        </div>
+    </header>
+
+    <!-- SECCIÓN MOCKUP -->
+    <section class="py-12 md:py-16 px-4">
+        <div class="max-w-5xl mx-auto">
+             <!-- REEMPLAZAR AQUÍ: Cambia el src de esta imagen por la URL de tu mockup 3D del libro. -->
+             <img src="https://placehold.co/1200x675/0a0a0a/111111?text=Mockup+del+Libro" alt="Portada y contenido del libro Manual de Combate para un Corazón Roto" class="rounded-lg shadow-2xl w-full max-w-4xl mx-auto">
+        </div>
+    </main>
+
+    <!-- SECCIÓN PUNTOS DE DOLOR -->
+    <section class="py-12 md:py-20 px-4">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-white">Si esto te suena familiar, no estás solo...</h2>
+            </div>
+            <div class="flex flex-wrap justify-center gap-8">
+                <div class="card rounded-lg p-6 text-center w-full sm:w-2/5 lg:w-1/4">
+                    <img src="https://images.unsplash.com/photo-1518601886580-285b28534b69?q=80&w=800&auto=format&fit=crop" alt="Persona sintiendo un vacío" class="w-full h-48 object-cover rounded-md mb-4 opacity-50">
+                    <h3 class="text-xl font-bold text-white mb-2">El Vacío Constante</h3>
+                    <p class="text-gray-400">Esa sensación en el pecho que no se va, especialmente por las noches, cuando el silencio grita.</p>
+                </div>
+                <div class="card rounded-lg p-6 text-center w-full sm:w-2/5 lg:w-1/4">
+                    <img src="https://images.unsplash.com/photo-1611262588024-d12430b98920?q=80&w=800&auto=format&fit=crop" alt="Persona revisando su perfil en redes sociales" class="w-full h-48 object-cover rounded-md mb-4 opacity-50">
+                    <h3 class="text-xl font-bold text-white mb-2">La Obsesión Digital</h3>
+                    <p class="text-gray-400">Revisas su perfil, su última conexión, buscando pistas en un laberinto digital que solo te trae más dolor.</p>
+                </div>
+                <div class="card rounded-lg p-6 text-center w-full sm:w-2/5 lg:w-1/4">
+                    <img src="https://images.unsplash.com/photo-1531243282129-a798b3be4162?q=80&w=800&auto=format&fit=crop" alt="Persona con baja autoestima" class="w-full h-48 object-cover rounded-md mb-4 opacity-50">
+                    <h3 class="text-xl font-bold text-white mb-2">Confianza Destruida</h3>
+                    <p class="text-gray-400">Tu autoestima está por los suelos. Te preguntas qué hiciste mal, sintiendo que no eres suficiente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN VSL (VIDEO SALES LETTER) -->
+    <section class="py-12 md:py-20 px-4 bg-black">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-white">Hablemos claro. Sin filtros.</h2>
+            <p class="mt-4 text-xl text-gray-400">Pulsa play. Este es el mensaje que desearías haber recibido el primer día de tu ruptura.</p>
+            <div class="mt-8 aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-2xl border-2 border-orange-600/50">
+                <!-- REEMPLAZAR AQUÍ: Cambia este div por el código de inserción de tu vídeo (YouTube, Vimeo, etc.) -->
+                <div class="bg-gray-900 flex items-center justify-center">
+                    <p class="text-white text-2xl montserrat-font">ESPACIO PARA TU VÍDEO DE VENTAS (VSL)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SECCIÓN "QUÉ HAY DENTRO" -->
+    <section class="py-12 md:py-20 px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-white">Tu Arsenal de Combate:</h2>
+            <p class="mt-4 text-xl text-gray-400">Este no es un libro, es un programa de entrenamiento dividido en 3 fases críticas:</p>
+            <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+                <div class="card p-6 rounded-lg">
+                    <span class="anton-font text-orange-500 text-4xl">SEMANA 1</span>
+                    <h3 class="text-2xl font-bold text-white mt-2">Control de Daños</h3>
+                    <p class="text-gray-400 mt-2">Aprenderás a detener la hemorragia emocional, implementar el "Modo Fantasma" y sobrevivir al infierno inicial.</p>
+                </div>
+                <div class="card p-6 rounded-lg">
+                    <span class="anton-font text-orange-500 text-4xl">SEMANA 2</span>
+                    <h3 class="text-2xl font-bold text-white mt-2">Reconstrucción</h3>
+                    <p class="text-gray-400 mt-2">Demolerás tus narrativas falsas, rescatarás tu identidad y escribirás tus nuevas reglas inquebrantables.</p>
+                </div>
+                <div class="card p-6 rounded-lg">
+                    <span class="anton-font text-orange-500 text-4xl">SEMANA 3</span>
+                    <h3 class="text-2xl font-bold text-white mt-2">La Ofensiva</h3>
+                    <p class="text-gray-400 mt-2">Diseñarás un futuro emocionante, activarás tu confianza a voluntad y reconectarás con el mundo bajo tus términos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN PRUEBA SOCIAL (TESTIMONIOS) -->
+    <section class="bg-black py-12 md:py-20 px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-white">Lo que dicen los primeros graduados...</h2>
+            <div class="mt-10 space-y-8">
+                <div class="card p-8 rounded-lg text-left max-w-3xl mx-auto">
+                    <p class="text-xl text-gray-300 italic">"Pensé que era otro libro de autoayuda, pero es diferente. Es directo, es práctico. El Día 12, el del Manifiesto, me cambió las reglas del juego para siempre."</p>
+                    <p class="text-right mt-4 font-bold text-orange-500 text-lg">- Javier L.</p>
+                </div>
+                 <div class="card p-8 rounded-lg text-left max-w-3xl mx-auto">
+                    <p class="text-xl text-gray-300 italic">"La sección sobre el 'mono emocional' fue como si alguien encendiera la luz en un cuarto oscuro. Por primera vez, entendí lo que me pasaba y dejé de sentirme culpable."</p>
+                    <p class="text-right mt-4 font-bold text-orange-500 text-lg">- Sofía M.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN AUTOR -->
+    <section class="py-12 md:py-20 px-4">
+        <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8 md:gap-12">
+            <div class="w-full md:w-1/3 flex-shrink-0">
+                <!-- REEMPLAZAR AQUÍ: Cambia el src de esta imagen por la URL de tu foto de autor. -->
+                <img src="https://placehold.co/400x400/111111/e5e7eb?text=Autor" alt="Foto de Franco Sin Miedos" class="rounded-full w-48 h-48 md:w-64 md:h-64 mx-auto object-cover shadow-lg border-4 border-gray-800">
+            </div>
+            <div class="w-full md:w-2/3">
+                <h3 class="text-3xl font-bold text-white">Sobre el Autor</h3>
+                <h4 class="text-2xl anton-font text-orange-500 mt-1">FRANCO SIN MIEDOS</h4>
+                <div class="mt-4 text-gray-400 space-y-4 text-lg">
+                    <p>No soy psicólogo. No soy un gurú de relaciones. Soy un tipo que conoció el suelo del baño a las 3 de la mañana. En mi peor momento, busqué un manual que me hablara claro y no lo encontré.</p>
+                    <p>Este libro es ese manual. Lo escribí para darte las herramientas que yo tuve que forjar a la mala, para que tu camino sea más directo y tu victoria, más segura.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN CTA FINAL CON PRECIOS -->
+    <section id="comprar" class="bg-black py-16 md:py-24 px-4 text-center">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-extrabold text-white">Tu reconstrucción empieza hoy.</h2>
+            <p class="mt-4 text-xl text-gray-300">Aprovecha el precio especial de lanzamiento. Es una oportunidad por tiempo limitado para recompensar a los que actúan ahora.</p>
+            
+            <!-- Bloque de Precios -->
+            <div class="mt-10 grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-2xl mx-auto">
+                <!-- Opción Ebook -->
+                <div class="card p-8 rounded-lg border-2 border-orange-500">
+                    <h3 class="text-2xl font-bold text-white">EBOOK</h3>
+                    <p class="text-gray-400 mt-2">(Acceso Instantáneo)</p>
+                    <div class="my-6">
+                        <span class="text-5xl font-bold text-white">$7.99</span>
+                        <span class="text-xl text-gray-500 line-through ml-2">$12.99</span>
+                    </div>
+                    <!-- FIX: Texto del botón acortado para evitar el salto de línea -->
+                    <a href="#" class="cta-button w-full px-8 py-4 rounded-lg text-lg uppercase tracking-wide">
+                        OBTENER MI EBOOK
+                    </a>
+                </div>
+                <!-- Opción Libro Físico -->
+                <div class="card p-8 rounded-lg">
+                    <h3 class="text-2xl font-bold text-white">LIBRO FÍSICO</h3>
+                    <p class="text-gray-400 mt-2">(vía Amazon)</p>
+                     <div class="my-6">
+                        <span class="text-5xl font-bold text-white">$15.99</span>
+                        <span class="text-xl text-gray-500 line-through ml-2">$19.99</span>
+                    </div>
+                    <a href="#" class="cta-button secondary-cta w-full px-8 py-4 rounded-lg text-lg uppercase tracking-wide">
+                        Comprar en Amazon
+                    </a>
+                </div>
+            </div>
+            <p class="mt-8 text-sm text-gray-500">Pago seguro. Acceso inmediato a la versión digital.</p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-8 px-4 text-center border-t border-gray-900">
+        <p class="text-gray-500">&copy; 2025 Franco Sin Miedos. Todos los derechos reservados.</p>
+        <div class="mt-4 flex justify-center space-x-6">
+            <a href="#" class="text-gray-400 hover:text-orange-500 transition-colors">Instagram</a>
+            <a href="#" class="text-gray-400 hover:text-orange-500 transition-colors">Política de Privacidad</a>
+        </div>
+    </footer>
+
+</body>
+</html>
